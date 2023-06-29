@@ -7,6 +7,9 @@ https://javascript.plainenglish.io/a-20-year-experienced-ctos-advice-don-t-be-a-
 
 
 https://medium.com/geekculture/how-to-get-github-copilot-for-100-free-d25c3b8c3ba4
+https://github.com/features/copilot/
+
+https://www.msn.com/en-us/news/technology/fly-above-the-traffic-in-a-car-first-flying-car-approved-by-the-faa/vi-AA1de2sp?ocid=msedgntp&cvid=104dafdb3bb84d849007f42f38079f38&ei=8
 
 
 -----
