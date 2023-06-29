@@ -1,3 +1,11 @@
+
+
+
+
+https://medium.com/geekculture/how-to-get-github-copilot-for-100-free-d25c3b8c3ba4
+
+
+-----
 # 29JUN23
 notes via 29jun23
 
