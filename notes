@@ -1,0 +1,38 @@
+
+import requests
+from bs4 import BeautifulSoup
+import json
+
+# Scrape the Interbrand website for the list of companies
+url = 'https://interbrand.com/best-global-brands/'
+response = requests.get(url)
+soup = BeautifulSoup(response.text, 'html.parser')
+companies = [company.text for company in soup.select('.brand-list-item__title')]
+
+# Search the Google Ads Transparency Report for the US region for each company
+results = []
+for company in companies:
+    search_url = f'https://adstransparency.google.com/api/v1/search?region=US&query={company}'
+    response = requests.get(search_url)
+    data = response.json()
+    results.append(data)
+
+# Store the extracted information in a list of dictionaries
+output = []
+for result in results:
+    for ad in result['ads']:
+        output.append({
+            'company': ad['advertiser_name'],
+            'impressions': ad['impressions'],
+            'spend': ad['spend'],
+            'creative_type': ad['creative_type'],
+            'start_date': ad['start_date'],
+            'end_date': ad['end_date']
+        })
+
+# Convert the list of dictionaries to a JSON file
+with open('output.json', 'w') as f:
+    json.dump(output, f)
+
+# Import the JSON file into Trello as cards using the Trello API
+# Code for importing JSON file into Trello is not provided as it is beyond the scope of this question.
