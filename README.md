@@ -2,6 +2,10 @@
 
 
 
+
+https://javascript.plainenglish.io/a-20-year-experienced-ctos-advice-don-t-be-a-humble-developer-919973e8ca5
+
+
 https://medium.com/geekculture/how-to-get-github-copilot-for-100-free-d25c3b8c3ba4
 
 
