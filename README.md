@@ -1,7 +1,7 @@
 
 
 
-
+yes the animation looks like the code in the source (<span class="pl-c js-type-letters" style="visibility: visible;">// Determine whether the sentiment of text is positive</span>) like it's being typed out in the browser.  how do i get code to do that? https://www.perplexity.ai/search/f1828f10-ac95-4409-aba6-21d7f2d48d97?s=c
 
 https://javascript.plainenglish.io/a-20-year-experienced-ctos-advice-don-t-be-a-humble-developer-919973e8ca5
 
